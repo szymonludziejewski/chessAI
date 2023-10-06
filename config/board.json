@@ -1,0 +1,10 @@
+[
+    {
+        "cordinates": "A1",
+        "neighbors": ["A2", "B1"],
+        "diagonalNeighbors": ["B2"],
+        "color": "white",
+        "figure": "rook",
+        "figureColor": "white"
+    }
+]
