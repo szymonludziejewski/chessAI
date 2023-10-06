@@ -7,15 +7,19 @@ export default function Board() {
 
     return (
         <tbody>
-            {columns.map(column =>
-            <tr>
-                {rows.map(row =>
-                    <td>
-                        <Field cordinates={`${column}${row}`}></Field>
-                    </td>
-                )}
-            </tr>
-            )}
+            {columns.map(column => {
+                return (
+                    <tr>
+                        {rows.map(row => {
+                            return (
+                                <td>
+                                    <Field cordinates={`${column}${row}`}></Field>
+                                </td>
+                            )
+                        })}
+                    </tr>
+                )
+            })}
         </tbody>
     )
 }
