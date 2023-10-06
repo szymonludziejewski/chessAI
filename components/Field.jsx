@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Field() {
-    const color = '';
-    const cordinates = '';
+export default function Field(props) {
+    const colorStyle = {
+        color: props.color
+    }
     return (
-        <div>Field</div>
+        <div style={colorStyle}>{props.cordinates}</div>
     )
 }
