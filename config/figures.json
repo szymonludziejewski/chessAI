@@ -1,0 +1,69 @@
+{
+    "king": {
+        "points": 100,
+        "moves": [
+            "F","B","L","R","FL", "FR", "BL", "BR"
+        ],
+        "capture": [
+            "F","B","L","R","FL", "FR", "BL", "BR"
+        ],
+        "howMany": 1,
+        "capturable": false 
+    },
+    "queen": {
+        "points": 9,
+        "moves": [
+            "F","B","L","R","FL", "FR", "BL", "BR"
+        ],
+        "capture": [
+            "F","B","L","R","FL", "FR", "BL", "BR"
+        ],
+        "howMany": 1,
+        "capturable": true 
+    },
+    "rook": {
+        "points": 5,
+        "moves": [
+            "F","B","L","R"
+        ],
+        "capture": [
+            "F","B","L","R"
+        ],
+        "howMany": 2,
+        "capturable": true 
+    },
+    "knight": {
+        "points": 3,
+        "moves": [
+            "FFL", "FFR", "BBL", "BBR", "FLL", "FRR", "BLL", "BRR"
+        ],
+        "capture": [
+            "FFL", "FFR", "BBL", "BBR", "FLL", "FRR", "BLL", "BRR"
+        ],
+        "howMany": 2,
+        "capturable": true 
+    },
+    "bishop": {
+        "points": 3,
+        "moves": [
+            "FL", "FR", "BL", "BR"
+        ],
+        "capture": [
+            "FL", "FR", "BL", "BR"
+        ],
+        "howMany": 2,
+        "capturable": true 
+    },
+    "pawn": {
+        "points": 1,
+        "moves": [
+            "F",
+            "FF"
+        ],
+        "capture": [
+            "FL","FR"
+        ],
+        "howMany": 1,
+        "capturable": true 
+    }
+}

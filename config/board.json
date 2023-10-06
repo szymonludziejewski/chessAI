@@ -1,10 +1,35 @@
 [
     {
         "cordinates": "A1",
-        "neighbors": ["A2", "B1"],
-        "diagonalNeighbors": ["B2"],
+        "neighbors": {
+            "F": "B1",
+            "B": null,
+            "L": "A2",
+            "R": null,
+            "FL": "B2",
+            "FR": null,
+            "BL": null,
+            "BR": null
+        },
         "color": "white",
         "figure": "rook",
         "figureColor": "white"
-    }
+    },
+    {
+        "cordinates": "A2",
+        "neighbors": {
+            "F": "B2",
+            "B": null,
+            "L": "A3",
+            "R": "A1",
+            "FL": "B3",
+            "FR": "B1",
+            "BL": null,
+            "BR": null
+        },
+        "color": "white",
+        "figure": "rook",
+        "figureColor": "white"
+    },
+    {}
 ]
