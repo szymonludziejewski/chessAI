@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Figure() {
+export default function Figure(props) {
     
     return (
-        <div>Figure</div>
+        <div>{props.piece}</div>
     )
 }

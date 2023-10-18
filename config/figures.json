@@ -1,5 +1,6 @@
 {
     "king": {
+        "symbol": "K",
         "points": 100,
         "moves": [
             "F","B","L","R","FL", "FR", "BL", "BR"
@@ -11,6 +12,7 @@
         "capturable": false 
     },
     "queen": {
+        "symbol": "Q",
         "points": 9,
         "moves": [
             "F","B","L","R","FL", "FR", "BL", "BR"
@@ -22,6 +24,7 @@
         "capturable": true 
     },
     "rook": {
+        "symbol": "R",
         "points": 5,
         "moves": [
             "F","B","L","R"
@@ -33,6 +36,7 @@
         "capturable": true 
     },
     "knight": {
+        "symbol": "N",
         "points": 3,
         "moves": [
             "FFL", "FFR", "BBL", "BBR", "FLL", "FRR", "BLL", "BRR"
@@ -44,6 +48,7 @@
         "capturable": true 
     },
     "bishop": {
+        "symbol": "B",
         "points": 3,
         "moves": [
             "FL", "FR", "BL", "BR"
@@ -55,6 +60,7 @@
         "capturable": true 
     },
     "pawn": {
+        "symbol": "P",
         "points": 1,
         "moves": [
             "F",
